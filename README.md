@@ -7,9 +7,11 @@ Bot auto assumes you arent muted by default, if you want to update properly ping
 **WINDOWS ONLY**
 1. You need node.js to use this and sox https://nodejs.org https://sourceforge.net/projects/sox/files/sox/
 2. once you have nodejs installed go to where you extracted the files
-3. run `npm.bat` first, 
+3. run `install.bat` first, 
 4. once that has completed run `run.bat`
-NOTE: you shouldnt have to run `npm.bat` ever again
+NOTE: you shouldnt have to run `install.bat` ever again || if `install.bat` gives you a node-gyup error its fine, if its any other error report in issues and make sure you have node installed.
+
+run npm i in a seperate console to copy error
 
 **sox troubleshooting instructions**
 
@@ -19,6 +21,7 @@ NOTE: you shouldnt have to run `npm.bat` ever again
 3. Click Edit → New :
 4. Add this: C:\Program Files (x86)\sox-<CHECK YOUR VERSION NUMBER>\
 Note
+
 As indicated in the example path, make sure to check what version of Sox you have installed by actually navigating to your Program Files (x86) folder and looking for a folder that starts with sox, for example sox-14-4-2.
 Restart your terminal.
 Note that if you're using an IDE, you may need to restart the IDE to have the Path variables update.
