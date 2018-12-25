@@ -1,0 +1,31 @@
+{
+  "name": "discord-ts3",
+  "version": "1.0.0",
+  "description": "condie bitched about this so i made it",
+  "main": "app.js",
+  "dependencies": {
+    "clear": "^0.1.0",
+    "discord.js": "^11.4.2",
+    "inquirer": "^6.2.1",
+    "mic": "^2.1.2",
+    "node-vad": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baecon/discord-mute-sound.git"
+  },
+  "keywords": [
+    "discord",
+    "teamspeak"
+  ],
+  "author": "baecon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baecon/discord-mute-sound/issues"
+  },
+  "homepage": "https://github.com/Baecon/discord-mute-sound#readme"
+}
