@@ -1,8 +1,8 @@
-#Description
+# Description
 This bot plays the ts noise whenever you are muted on discord.
 
 Bot auto assumes you arent muted by default, if you want to update properly ping bot then mute and unmute yourself or opposite
-##commands
+## commands
 1. !>ping = check if discord is running bot
 2. !>state = check current state that bot thinks you are
 
