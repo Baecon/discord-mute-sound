@@ -78,7 +78,7 @@ function startDiscord(token){
             if (!message.author.id == client.user.id) return
             if (message.content == '!>ping') message.edit('yup im ready')
             if (message.content == '!>state') message.edit(`muted?: ${muted}`)
-        }).catch(console.log('message was not able to be edited (msg might have been deleted)'))
+        })
         client.on('voiceStateUpdate', (oldMember, newMember) =>{
         if(newMember.id == client.user.id) {
             if(newMember.selfMute) muted = true
